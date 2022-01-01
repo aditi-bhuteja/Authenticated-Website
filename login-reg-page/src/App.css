@@ -1,0 +1,101 @@
+.App {
+  text-align: center;
+}
+.background{
+  background-image: url("iot.jpeg");
+  background-size: cover;
+  height: 100vh;
+}
+.navigation-bar{
+  padding: 5px;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navheader{      
+  text-align: center;
+  margin-top: 10px;      
+  
+  padding: 3px;
+  color :black !important;      
+  background-color:white!important      
+}    
+ 
+.PageHeading      
+{      
+  margin-top: 10px;      
+  margin-bottom: 10px;      
+  color :black !important;      
+}
+
+.form-box
+{
+    width:380px;
+	height:480px;
+	position:relative;
+	margin:2% auto;
+	background:rgba(0,0,0,0.1);
+	padding:10px;
+    overflow: hidden;
+}
+.button-box
+{
+	width:220px;
+	margin:35px auto;
+	position:relative;
+	box-shadow: 0 0 20px 9px #fcdcd01f;
+	border-radius: 30px;
+}
+.toggle-btn
+{
+	padding:10px 30px;
+	cursor:pointer;
+	background:transparent;
+	border:0;
+	outline: none;
+	position: relative;
+}
+#btn
+{
+	top: 0;
+	left:0;
+	position: absolute;
+	width: 110px;
+	height: 100%;
+	background:rgb(248, 174, 196);
+	border-radius: 30px;
+	transition: .5s;
+}
